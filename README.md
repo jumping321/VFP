@@ -71,11 +71,11 @@ The VFP analyzer computes neuron-specific functional profiles considering excita
 
 ## 3. Workflow Diagram
 
-```mermaid
 flowchart TD
     A[Input Data] --> B[Generate Weight Matrix]
-    B --> C[weight_matrix.npz + neuron_ids.npy]
-    C --> D[Compute Visual Functional Profile (VFP)]
-    D --> E[Visual Functional Profiles per Neuron]
-    E --> F[Visualization & Heatmaps]
+    B --> C[Output weight_matrix.npz and neuron_ids.npy]
+    C --> D[Compute Visual Functional Profile]
+    D --> E[Generate VFP for each neuron]
+    E --> F[Visualization and Heatmaps]
     click C "https://zenodo.org/" "Matrices can also be downloaded from Zenodo"
+
