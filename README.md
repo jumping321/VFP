@@ -68,14 +68,3 @@ This step analyzes the connectome weight matrix to generate visual functional pr
 The VFP analyzer computes neuron-specific functional profiles considering excitatory and inhibitory weights. The results can be used for downstream visualization, heatmap generation, and analysis of motion-related neuron responses.
 
 ---
-
-## 3. Workflow Diagram
-
-flowchart TD
-    A[Input Data] --> B[Generate Weight Matrix]
-    B --> C[Output weight_matrix.npz and neuron_ids.npy]
-    C --> D[Compute Visual Functional Profile]
-    D --> E[Generate VFP for each neuron]
-    E --> F[Visualization and Heatmaps]
-    click C "https://zenodo.org/" "Matrices can also be downloaded from Zenodo"
-
