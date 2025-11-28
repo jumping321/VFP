@@ -49,7 +49,7 @@ This step analyzes the connectome weight matrix to generate visual functional pr
 - **neuron_types_path** — CSV mapping neuron IDs to types (`visual_neuron_types.txt`)  
 
 > **Note:** The `matrices` folder required for this step can be obtained in **two ways**:
-> 1. Download precomputed matrices from [Zenodo]([https://zenodo.org/](https://doi.org/10.5281/zenodo.17744604)).  
+> 1. Download precomputed matrices from [Zenodo]([https://doi.org/10.5281/zenodo.17744604]).  
 > 2. Generate them by running `VisualFunctionProfile.ipynb` in this repository.
 
 ### Parameters
