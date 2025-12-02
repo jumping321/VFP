@@ -8,7 +8,7 @@ Mapping Visual Function Profiles of Individual Neurons Across the Drosophila Bra
 This repository contains scripts and instructions for generating the **Drosophila connectome weight matrix** and computing **Visual Functional Profiles (VFP)** for specific neuron types.
 
 ---
-
+Download data from [FLYWIRE](https://flywire.ai/).   
 ## 1. Generate Connectome Weight Matrix
 
 This step constructs the synaptic weight matrix used for visual functional profiling.
