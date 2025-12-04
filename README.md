@@ -1,7 +1,7 @@
 # VFP
 Mapping Visual Function Profiles of Individual Neurons Across the Drosophila Brain
 
-![LPLC2 Right Neurons](LPLC2__right_neurons.gif)
+![LPLC2 Right Neurons](LPLC2_Bar.gif)
 
 # Drosophila Visual Functional Profiling (VFP) Pipeline
 
